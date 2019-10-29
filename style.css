@@ -1,0 +1,25 @@
+.navbar-brand{
+    
+}
+
+.navbar{
+    padding:0;
+}
+
+.nav-item{
+    justify-content: end;
+}
+
+img{
+    float: left;
+    margin-right: 10px;
+}
+h2{
+    margin-left: 10px;
+}
+
+.footer-copyright{
+    background-color: #666666;
+    color: #ffffff;
+    border-top: 8px solid #4aaaa5;
+}
