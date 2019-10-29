@@ -1,12 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Dylan Coffey Portfolio</title>
 </head>
-<body>
-    
+
+<body background="images/herringbone.png">
+
+    <nav class="row navbar navbar-expand-md bg-white navbar-light border-secondary p-0 flex-wrap sticky-top"
+        style="border-bottom: 2px solid #cccccc; font-family: Georgia, 'Times New Roman', Times, serif;">
+
+        <div class="container col-sm-12 col-lg-12 col-xl-12">
+
+            <div class="navbar-brand text-white d-inline-flex justify-content-center col-12 col-sm-12 offset-md-1 col-md-3 col-lg-2 align-items-center"
+                style="height:73px; background-color: #4aaaa5">Dylan Coffey</div>
+
+            <ul
+                class="nav col-12 col-sm-12 justify-content-center offset-md-2 col-md-6 offset-lg-3 col-lg-justify-content-end">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html" style="color: #777777;">About</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link py-0 mt-2" href="portfolio.html"
+                        style="color: #777777; border-right: 1px solid #777777; border-left: 1px solid #777777">Portfolio</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html" style="color: #777777;">Contact</a>
+                </li>
+            </ul>
+
+        </div>
+
+    </nav>
+    <div class="container py-5">
+        <div class="card col-12 offset-lg-1 col-lg-7 col-xl-7">
+
+            <h2 class="mx-3 py-3"
+                style="color:#4aaaa5; border-bottom:2px solid #cccccc; font-family: Georgia, 'Times New Roman', Times, serif;">
+                Contact</h2>
+
+            <div class="card-body" style="font-family: Arial, Helvetica, sans-serif;">
+                <form>
+                    <div class="form-row pb-4">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" placeholder="Name">
+                    </div>
+                    <div class="form-row pb-4">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Email">
+                    </div>
+                    <div class="form-row pb-4">
+                        <label for="message">Message</label>
+                        <textarea class="form-control" id="message" rows="5" placeholder100="Insert Text Here"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary my-2" style="background-color: #4aaaa5; border-color: #4aaaa5;">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
